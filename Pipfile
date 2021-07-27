@@ -11,6 +11,8 @@ sklearn = "*"
 statsmodels = "*"
 more-itertools = "*"
 seaborn = "*"
+ipykernel = "*"
+pmdarima = "*"
 
 [dev-packages]
 
