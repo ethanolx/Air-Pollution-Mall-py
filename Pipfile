@@ -12,7 +12,8 @@ statsmodels = "*"
 more-itertools = "*"
 seaborn = "*"
 ipykernel = "*"
-pmdarima = "*"
+plotly = "*"
+nbformat = "*"
 
 [dev-packages]
 
