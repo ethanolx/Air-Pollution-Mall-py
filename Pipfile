@@ -6,16 +6,15 @@ name = "pypi"
 [packages]
 pandas = "*"
 numpy = "*"
-matplotlib = "*"
 sklearn = "*"
 statsmodels = "*"
-more-itertools = "*"
 seaborn = "*"
 ipykernel = "*"
 plotly = "*"
-nbformat = "*"
+matplotlib = "*"
 
 [dev-packages]
+nbformat = "*"
 
 [requires]
 python_version = "3.8"
