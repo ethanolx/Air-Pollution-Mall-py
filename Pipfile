@@ -12,9 +12,9 @@ seaborn = "*"
 ipykernel = "*"
 plotly = "*"
 matplotlib = "*"
+nbformat = "*"
 
 [dev-packages]
-nbformat = "*"
 
 [requires]
 python_version = "3.8"

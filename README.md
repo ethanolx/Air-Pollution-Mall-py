@@ -17,8 +17,6 @@ To create a virtual environment with all the required packages (in `.venv`):
 2.  Create the virtual environment (using `pipenv install`)
 3.  Activate the virtual environment (using `pipenv shell`)
 
-An alternative is to use pip to install the required dependencies from `requirements.txt`
-
 To connect the Jupyter notebook (`ai.ipynb`) to use the above virtual environment,
 1.  Change kernel
 2.  Select the `.venv` environment
@@ -40,7 +38,19 @@ CA2 ---- .venv (empty directory)
      |        |-- part-a.pptx
      |        `-- part-b.pptx
      |
-     |-- out ---- kaggle_submission.csv
+     |-- models ---- best_models.p
+     |           |-- evaluation-results.p
+     |           |-- gs-expsmth-results.p
+     |           |-- gs-sarima-results.p
+     |           |-- gs-sarimax-1-results.p
+     |           `-- gs-sarimax-2-results.p
+     |
+     |-- out ---- kaggle ---- dirty-1.csv
+     |        |           `-- dirty-2.csv
+     |        |
+     |        |-- baseline.csv
+     |        |-- clean.csv
+     |        `-- customer-clustering-model.p
      |
      |-- .gitignore
      |-- ai.ipynb
@@ -49,4 +59,8 @@ CA2 ---- .venv (empty directory)
      `-- README.md
 ```
 
-##
+## See Also
+
+*   Assignment Brief: `doc/CA2_Brief.pdf`
+*   Part A highlights: `doc/part-a.pptx`
+*   Part B highlights: `doc/part-b.pptx`
